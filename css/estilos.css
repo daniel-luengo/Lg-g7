@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+*/
+
+html, body, div, span, h1, h2, h3, h4, h5, p, a, img, form, table, tr, td, fieldset, input, ul, li {
+    border: 0 none;
+    font-family: 'LG Smart',sans-serif,Verdana;
+    font-weight: normal;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+
+body { background: #000000;}
+
+.negrita { font-weight: bold;}
+.menu-superior { position: relative; z-index: 10;}
+.menu-superior .navbar-default { background-color: inherit;  border-color: inherit;}
+.menu-superior .navbar { border-radius: 0px;    border: 0px solid transparent;}
+.menu-superior .navbar-default .navbar-nav > li > a {  font-size: 16px;}
+#bloque-1 { background: #b9c1e7; min-height: 500px;}
+#bloque-2 { background: url(../images/playa.jpg) center top; min-height: 900px;}
+#bloque-3 { background:  url(../images/bosque.jpg) center top; min-height: 900px;}
+.menu-superior .navbar-nav > li { padding-left: 180px; padding-top: 10px;}
+
+
+.caja-contenedor { width: 300px; margin: 0 auto; min-height: 300px; position: relative; top:200px;}
+.celular { position: absolute; z-index: 999;}
+
+.bloque-texto-1 { background: #E3DADA; opacity: 0.8; font-size: 24px; max-width: 200px; float: right;}
+.bloque-texto-2 { background: #074608; opacity: 0.8; font-size: 24px; max-width: 300px; color: #ffffff;}
+
+
+
+/*.banner-video {
+    height: 46vw;
+    min-height: initial;
+    overflow: hidden;
+}
+
+.banner-video video {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+*/
+
+.banner-video {
+ position: relative;
+}
+
+.banner-video video {
+
+    position: absolute;
+	top: -99px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** INICIO MEDIA QUERY MIN-WIDTH 1200 *****************/
+@media (max-width: 1199px) {
+	
+}
+
+
+
+/****************** FIN min-width 1200 *****************/
+
+
+
+
+/****************** INICIO MEDIA QUERY MIN-WIDTH 992 *****************/
+
+@media (max-width: 991px) {
+	
+
+}
+/****************** FIN min-width 992 *****************/
+
+
+
+
+
+
+
+
+/****************** INICIO MEDIA QUERY 768 *****************/
+@media (max-width: 767px) { 
+
+	
+	
+	
+	
+}
+/****************** FIN min-width 768 *****************/
+
+
+
+
+
+
+/****************** INICIO MEDIA QUERY 500 *****************/
+@media (max-width: 499px) { 
+
+}
+/****************** FIN min-width 500 *****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
